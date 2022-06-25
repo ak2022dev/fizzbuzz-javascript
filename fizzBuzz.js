@@ -1,7 +1,7 @@
 // File: fizzBuzz.js
 
 const fizzBuzz = (num) => {
-  if (num === 3) {
+  if ((num%3)===0) {
     return 'Fizz';
   }
 };
