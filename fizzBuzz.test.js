@@ -9,5 +9,8 @@ describe( 'fizzBuzz', () => {
   it( 'returns "Buzz" given input 5', () => {
     expect(fizzBuzz(5)).toBe('Buzz');
   });
+  it( 'returns 8 given input 8', () => {
+    expect(fizzBuzz(8)).toBe(8);
+  });
 });
 
